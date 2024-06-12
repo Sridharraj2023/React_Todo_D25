@@ -1,0 +1,151 @@
+.container {
+  max-width: 1500px;
+  margin: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+   
+}
+
+.card {
+  max-width: 300px;
+  margin: 5px solid black;
+  padding: 20px;
+  text-align: center;
+  background-color: #1f1e1e;
+  font-weight: bolder;
+  color: white;
+  border-color: white;
+  
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.add-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #0056b3;
+}
+
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task-card {
+  background: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.task-card h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.task-card p {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.task-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-btn, .delete-btn, .save-btn, .status-btn {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: #218838;
+}
+
+.status-btn {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.status-btn.completed {
+  background-color: #28a745;
+  color: white;
+}
+
+.status-btn.not-completed {
+  background-color: #ffc107;
+  color: white;
+}
+
+*{
+  margin: 5px;
+  padding: 5px;
+  background-color: #1f1e1e;
+  color: white;
+  border-radius: 10px;
+  
+}
