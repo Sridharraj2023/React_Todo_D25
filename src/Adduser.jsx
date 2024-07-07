@@ -123,7 +123,10 @@ function Adduser() {
                                     value={editDes}
                                     onChange={(e) => setEditDes(e.target.value)}
                                 />
+
+                                &nbsp; &nbsp;
                                 <Button variant="primary" onClick={handleUpdate}>Update</Button>
+                                &nbsp; &nbsp;
                                 <Button variant="secondary" onClick={() => setEditIndex(null)}>Cancel</Button>
                             </>
                         ) : (
@@ -137,7 +140,9 @@ function Adduser() {
                                     <option value="Completed">Completed</option>
                                     <option value="Not Completed">Not Completed</option>
                                 </select>
+                                &nbsp; &nbsp;
                                 <Button variant="primary" onClick={() => handleEdit(index)}>Edit</Button>
+                                &nbsp; &nbsp;
                                 <Button variant="danger" onClick={() => handleDelete(index)}>Delete</Button>
                             </>
                         )}
